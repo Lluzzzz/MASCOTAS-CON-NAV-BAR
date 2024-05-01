@@ -1,0 +1,288 @@
+.title {
+    color:white;
+    background-image: linear-gradient(rgba(47, 47, 47, 0.7), rgba(47, 47, 47, 0.7)), url(../images/tfondo.jpg);
+    text-align: center;
+    font-size: 150%;
+    font-family: "Palanquin Dark", sans-serif;
+    border-color: black;
+    background-size:cover;
+    background-attachment:scroll;
+    padding: 200px;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  
+  
+  nav {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+    position: fixed;
+  }
+  
+  nav ul {
+    text-align: center;
+    padding: 0;
+    margin: 0; 
+  }
+  
+  nav ul li {
+    display: inline-flex;
+    font-weight: 100;
+    margin-right: 20px;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: solid whitesmoke;
+  }
+  
+  nav .enlace a,
+  nav .enlace a:hover,
+  nav .ref:hover {
+    color: white; 
+    text-decoration: none;
+    cursor: pointer; 
+    border-color: aliceblue;
+    font-size: 20px;
+    margin: 5px;
+  }
+  
+  h1{
+    text-align: center;
+    border: #f0f0f0;
+  }
+  
+  
+  .a{
+    max-width: 70px;
+    display:flex;
+    margin-inline-end: 30px;
+  }
+  .a img{
+    width: 100%; 
+    height: auto; 
+  }
+  main {
+    width: 80%;
+    padding: 0px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-family: "Comfortaa", sans-serif;
+    text-align: justify;
+    margin: 0 auto;
+  }
+  
+  article {
+    margin-top: 15px;
+    margin-left: 7px;
+    font-size: 30px;
+    text-align: justify;
+    font-family:"Cantarell", sans-serif;
+    color: #9d394a;
+    border-bottom: 2px solid #9d394a;
+  }
+
+  .solicita {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+
+  button {
+    background-color: #ff9f1a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+
+  .requisitos {
+    background-color: #fdeec8;
+    display:flex;
+    color: black;
+  }
+
+  .requisitos li{
+    margin-right: 20px;
+  }
+
+  
+  .registros{
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .gallery {
+    margin: 5px;
+    align-items: center;
+    border: 1px solid #ccc;
+    width: 180px;
+    height: 180px; 
+    background-color: white;
+    display:inline-block;
+  }  
+  .gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: 100%; 
+    object-fit:contain; 
+    display: inline-block;
+  }
+
+  .final {
+    margin-top: 20px;
+    margin-left: 7px;
+    display: flex; 
+}
+
+.ult {
+    max-width: 160px;
+    max-height: 100px; 
+    display: flex;
+}
+
+.parte {
+    display: flex;
+    flex-wrap: nowrap; 
+    align-items: center;
+margin-bottom: 15px;
+}
+
+.parte h4 {
+    color:#6e3b39;
+    font-size:x-large;
+    margin-right: 10px;
+    font-family: "Ubuntu Mono", monospace;
+}
+.ultimas{
+    padding: 15px;
+  text-align: justify;
+  margin-inline-end: 0%;
+}
+
+footer {
+    background-color: #9d394a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer a {
+    color: rgb(239, 238, 238);
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  footer a:hover {
+    color: #f0f0f0;
+  }
+  
+
+    @media only screen and (max-width: 768px) {
+        nav {
+          padding: 10px;
+          margin-inline-start: auto;
+        }
+        
+        nav ul li {
+          margin-right: 10px;
+        }
+      
+        .title {
+         font-size: 80%;
+        }
+        .a{
+            max-width: 50px;
+            display:flex;
+            margin-inline-end: 30px;
+          }
+      
+        .main {
+          width: 90%; 
+          margin-left: 20px;
+          margin-top: 10px;
+          margin-bottom: 50px;
+        }
+      
+        footer {
+          padding: 5px; 
+        }
+      }
+      
+      img {
+        max-width: 100%; 
+        max-height: 100%; 
+      }
+      
+      .ult{
+        width: 250px;
+        height: 100px;
+      }
+    
+  
+  @media only screen and (max-width: 300px) {
+    nav {
+      padding: 5px; 
+    }
+    
+    nav ul li {
+      margin-right: 5px; 
+      font-size: 3px;
+    }
+  
+    .title {
+      font-size: 80%;
+    }
+  
+    .main {
+      width: 90%;
+      margin-left: 10px;
+      margin-top: 5px; 
+      margin-bottom: 30px; 
+    }
+  
+    footer {
+      padding: 3px;
+    }
+  
+    img {
+      max-width: 100%; 
+      max-height: 100%; 
+    }
+    .ult{
+      width: 120px;
+      height: 50px;
+    }
+    .registros{
+      background-color: white;
+      margin-bottom: 500px;
+    }
+    
+  }
+  
+
